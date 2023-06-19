@@ -7,7 +7,7 @@ function getFormvalue() {
 }
 
 let form = document.getElementById("form1");
-event.preventDefault();
+
 form.addEventListner("submit" , () => {
 	getFormvalue();
 })
