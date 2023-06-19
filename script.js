@@ -4,5 +4,10 @@ function getFormvalue() {
 	let lastName = documemnt.getElementByName("lname");
 
 	alert(firstName+" "+lastName);
-
 }
+
+let form = document.getElementById("form1");
+event.preventDefault();
+form.addEventListner("submit" , () => {
+	getFormvalue();
+})
