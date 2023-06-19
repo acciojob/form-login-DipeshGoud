@@ -8,6 +8,6 @@ function getFormvalue() {
 
 let form = document.getElementById("form1");
 
-form.addEventListner("submit" , () => {
+form.addEventListener("submit" , () => {
 	getFormvalue();
 })
